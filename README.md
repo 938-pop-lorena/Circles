@@ -6,7 +6,7 @@ Each circle has an (x,y) center (x,y - integers) and a the radius r
 Functionalities will be available using a menu or commands:  
 ## 1. Generate 'n' circles
 - n is a positive integer read from the keyboard.
-- program generates and stores n distinct, random circles (distinct = at least one of x,y,radius must differ) ,
+- program generates and stores n distinct, random circles (distinct = at least one of x, y, radius must differ),
   each completely enclosed in the square defined by corners (0,0) and (20,20)
 
 ## 2. Delete all circles from a given rectangle
