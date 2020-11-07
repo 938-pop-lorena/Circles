@@ -1,3 +1,6 @@
+from src.service import *
+
+
 def generateCirclesUI(circles):
     while True:
         try:
@@ -8,13 +11,12 @@ def generateCirclesUI(circles):
     generateCircles(circles, nr)
 
 
-
 def deleteCirclesUI(circles):
     pass
 
 
 def displayCirclesUI(circles):
-    pass
+    displayCircles(circles)
 
 
 def print_menu():
