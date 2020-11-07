@@ -12,9 +12,13 @@ def generateCircles(circles: list, number: int):
     :param number: Integer determining how many circles will be generated
     """
     while number != 0:
-        x = randint(0, 20)
-        y = randint(0, 20)
-        maxRadius = min(x, y)
+        x = randint(0, 19)
+        y = randint(0, 19)
+        dXTwenty = 20 - x
+        dYTwenty = 20 - y
+        maxRadX = min(x, dXTwenty)
+        maxRadY = min(y, dYTwenty)
+        maxRadius = min(maxRadX, maxRadY)
         if maxRadius > 1:
             r = randint(1, maxRadius)
         else:
